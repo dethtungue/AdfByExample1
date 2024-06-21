@@ -1,0 +1,21 @@
+{
+	"name": "SourceDataset_t33",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "landing_connection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Azure-Data-Factory-by-Example-Second-Edition-main.zip",
+				"container": "landing"
+			},
+			"compression": {
+				"type": "ZipDeflate"
+			}
+		}
+	}
+}
