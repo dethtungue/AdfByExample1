@@ -1,0 +1,9 @@
+{
+	"name": "rbh-adf-by-example1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7f9bf782-53ab-4694-bf3b-36dbcebb8789",
+		"tenantId": "9b415222-16dc-4250-bd60-8a375591609a"
+	}
+}
