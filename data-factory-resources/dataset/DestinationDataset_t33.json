@@ -1,0 +1,17 @@
+{
+	"name": "DestinationDataset_t33",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Sample_Data",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "sampledata"
+			}
+		}
+	}
+}
